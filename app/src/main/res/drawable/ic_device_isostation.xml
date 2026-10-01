@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- IsoStation / PrismStation Modular Horn Antenna -->
+    <!-- Rear Mount -->
+    <path
+        android:pathData="M32,46 L32,56 M26,56 L38,56"
+        android:strokeWidth="3"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+    <!-- Die-cast metal horn flare -->
+    <path
+        android:pathData="M16,14 L48,14 L40,44 L24,44 Z"
+        android:fillColor="#F1F5F9"
+        android:strokeWidth="1.5"
+        android:strokeColor="#94A3B8" />
+    <!-- Horn mouth ring -->
+    <path
+        android:pathData="M32,16 m-15,0 a15,5 0 1,0 30,0 a15,5 0 1,0 -30,0"
+        android:fillColor="#E2E8F0"
+        android:strokeWidth="1.2"
+        android:strokeColor="#64748B" />
+    <!-- Center feed core -->
+    <path
+        android:pathData="M32,28 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#0057D8" />
+</vector>

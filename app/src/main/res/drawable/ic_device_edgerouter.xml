@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- EdgeRouter / EdgeSwitch Black Metal Chassis -->
+    <!-- Main dark metal chassis -->
+    <path
+        android:pathData="M10,22 L54,22 A3,3 0 0,1 57,25 L57,45 A3,3 0 0,1 54,48 L10,48 A3,3 0 0,1 7,45 L7,25 A3,3 0 0,1 10,22 Z"
+        android:fillColor="#1E293B"
+        android:strokeWidth="1.5"
+        android:strokeColor="#334155" />
+    <!-- RJ45 Ethernet Ports -->
+    <!-- Port 0 / eth0 -->
+    <path
+        android:pathData="M14,32 L20,32 L20,40 L14,40 Z"
+        android:fillColor="#0F172A"
+        android:strokeWidth="1"
+        android:strokeColor="#475569" />
+    <!-- Port 1 / eth1 -->
+    <path
+        android:pathData="M23,32 L29,32 L29,40 L23,40 Z"
+        android:fillColor="#0F172A"
+        android:strokeWidth="1"
+        android:strokeColor="#475569" />
+    <!-- Port 2 / eth2 -->
+    <path
+        android:pathData="M32,32 L38,32 L38,40 L32,40 Z"
+        android:fillColor="#0F172A"
+        android:strokeWidth="1"
+        android:strokeColor="#475569" />
+    <!-- Port 3 / eth3 -->
+    <path
+        android:pathData="M41,32 L47,32 L47,40 L41,40 Z"
+        android:fillColor="#0F172A"
+        android:strokeWidth="1"
+        android:strokeColor="#475569" />
+    <!-- SFP / Power Port -->
+    <path
+        android:pathData="M50,33 L54,33 L54,39 L50,39 Z"
+        android:fillColor="#38BDF8" />
+    <!-- Ethernet Link Status Green LEDs -->
+    <path
+        android:pathData="M16,27 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 M25,27 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 M34,27 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 M43,27 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"
+        android:fillColor="#10B981" />
+</vector>

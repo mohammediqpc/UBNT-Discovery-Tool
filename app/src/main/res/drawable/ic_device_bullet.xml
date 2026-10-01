@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Ubiquiti Bullet / PicoStation Cylindrical Radio -->
+    <!-- N-type Male RF connector on top -->
+    <path
+        android:pathData="M29,6 L35,6 L35,14 L29,14 Z"
+        android:fillColor="#94A3B8"
+        android:strokeWidth="1"
+        android:strokeColor="#64748B" />
+    <path
+        android:pathData="M27,14 L37,14"
+        android:strokeWidth="2"
+        android:strokeColor="#CBD5E1" />
+    <!-- Cylindrical white weatherproof body -->
+    <path
+        android:pathData="M24,16 L40,16 A2,2 0 0,1 42,18 L42,48 A2,2 0 0,1 40,50 L24,50 A2,2 0 0,1 22,48 L22,18 A2,2 0 0,1 24,16 Z"
+        android:fillColor="#F8FAFC"
+        android:strokeWidth="1.5"
+        android:strokeColor="#CBD5E1" />
+    <!-- RJ45 base cap at bottom -->
+    <path
+        android:pathData="M25,50 L39,50 L37,58 L27,58 Z"
+        android:fillColor="#E2E8F0"
+        android:strokeWidth="1"
+        android:strokeColor="#94A3B8" />
+    <!-- Signal strength LED bar -->
+    <path
+        android:pathData="M27,34 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 M30,34 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 M34,34 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 M37,34 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"
+        android:fillColor="#10B981" />
+    <!-- Center Ubiquiti Logo Dot -->
+    <path
+        android:pathData="M32,24 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#0057D8" />
+</vector>

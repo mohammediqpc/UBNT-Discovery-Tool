@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Rocket 5AC / Prism Radio Base Station -->
+    <!-- Two RP-SMA connectors on top -->
+    <path
+        android:pathData="M25,10 L29,10 L29,18 L25,18 Z M35,10 L39,10 L39,18 L35,18 Z"
+        android:fillColor="#64748B" />
+    <path
+        android:pathData="M24,8 L30,8 M34,8 L40,8"
+        android:strokeWidth="2"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+    <!-- Die-cast metal radio body -->
+    <path
+        android:pathData="M20,18 L44,18 A3,3 0 0,1 47,21 L47,50 A3,3 0 0,1 44,53 L20,53 A3,3 0 0,1 17,50 L17,21 A3,3 0 0,1 20,18 Z"
+        android:fillColor="#E2E8F0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#94A3B8" />
+    <!-- Inner panel -->
+    <path
+        android:pathData="M21,24 L43,24 L43,47 L21,47 Z"
+        android:fillColor="#F8FAFC" />
+    <!-- Center Ubiquiti Emblem -->
+    <path
+        android:pathData="M32,32 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#0057D8" />
+    <!-- Power & Radio status LEDs -->
+    <path
+        android:pathData="M24,42 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"
+        android:fillColor="#0284C7" />
+    <path
+        android:pathData="M28,42 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M32,42 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M36,42 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"
+        android:fillColor="#10B981" />
+</vector>

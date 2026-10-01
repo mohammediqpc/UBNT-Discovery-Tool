@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- NanoStation / NanoStation Loco panel antenna -->
+    <!-- Base mounting bracket -->
+    <path
+        android:pathData="M27,50 L37,50 L35,58 L29,58 Z"
+        android:fillColor="#94A3B8" />
+    <!-- Main white panel casing -->
+    <path
+        android:pathData="M22,8 L42,8 A4,4 0 0,1 46,12 L46,48 A4,4 0 0,1 42,52 L22,52 A4,4 0 0,1 18,48 L18,12 A4,4 0 0,1 22,8 Z"
+        android:fillColor="#F8FAFC"
+        android:strokeWidth="1.5"
+        android:strokeColor="#CBD5E1" />
+    <!-- Front bevel design line -->
+    <path
+        android:pathData="M22,14 L42,14"
+        android:strokeWidth="1"
+        android:strokeColor="#E2E8F0" />
+    <!-- Ubiquiti subtle central logo dot -->
+    <path
+        android:pathData="M32,26 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#0057D8" />
+    <!-- Signal strength LEDs at bottom -->
+    <path
+        android:pathData="M24,44 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M29,44 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M34,44 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M39,44 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#10B981" />
+</vector>

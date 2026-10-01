@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- LiteBeam Reflector & Feedhorn -->
+    <!-- Rear mount arm -->
+    <path
+        android:pathData="M32,32 L32,54"
+        android:strokeWidth="3"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M24,54 L40,54"
+        android:strokeWidth="3"
+        android:strokeColor="#64748B"
+        android:strokeLineCap="round" />
+    <!-- Center grid antenna dish arc -->
+    <path
+        android:pathData="M10,26 C14,14 50,14 54,26 C50,42 14,42 10,26 Z"
+        android:fillColor="#F1F5F9"
+        android:strokeWidth="1.5"
+        android:strokeColor="#CBD5E1" />
+    <!-- Grid ribbed segments -->
+    <path
+        android:pathData="M18,20 L18,34 M25,17 L25,37 M32,16 L32,38 M39,17 L39,37 M46,20 L46,34"
+        android:strokeWidth="1"
+        android:strokeColor="#E2E8F0" />
+    <!-- LiteBeam Feedhorn (Radio head) extending forward -->
+    <path
+        android:pathData="M28,24 L36,24 L35,32 L29,32 Z"
+        android:fillColor="#0057D8" />
+    <path
+        android:pathData="M30,19 L34,19 L35,24 L29,24 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:strokeColor="#0057D8" />
+</vector>

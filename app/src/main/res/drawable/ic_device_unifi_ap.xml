@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- UniFi Access Point (Circular saucer with central glowing blue ring) -->
+    <!-- Soft shadow edge -->
+    <path
+        android:pathData="M32,32 m-24,0 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0"
+        android:fillColor="#F1F5F9"
+        android:strokeWidth="1.2"
+        android:strokeColor="#CBD5E1" />
+    <!-- Main white dome surface -->
+    <path
+        android:pathData="M32,32 m-21,0 a21,21 0 1,0 42,0 a21,21 0 1,0 -42,0"
+        android:fillColor="#FFFFFF" />
+    <!-- Signature UniFi blue circular LED ring -->
+    <path
+        android:pathData="M32,32 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#0057D8"
+        android:fillColor="#00000000" />
+    <!-- Center white disc inside ring -->
+    <path
+        android:pathData="M32,32 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFFFFF" />
+</vector>

@@ -1,0 +1,8 @@
+{
+  "name": "UBNT Discovery",
+  "description": "Carrier-grade Ubiquiti device discovery tool for Android supporting broadcast, CIDR, and IP range scans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
